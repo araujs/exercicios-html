@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos</title>
+    <style>
+        /*  SELETORES PERSONALIZADOS
+             # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-elements
+            > = clildren
+            
+            */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: darkred;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active {
+            color: brown;
+        }
+        a::after{
+            content: '(link)';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+        #ola{
+            border: 1px solid black ;
+            padding: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalisando Links</h1>
+    <ul>
+        <li><a href="https://github.com">Repositorio GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo">Canal do Youtube</a></li>
+        <li><a href="https://cursoemvideo.com">Site CursoemVideo</a></li>
+    </ul>
+    <h2 id="ola">Hello World!</h2>
+</body>
+</html>
