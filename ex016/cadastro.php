@@ -1,0 +1,1 @@
+Para saber sobre php, aprenda antes!
