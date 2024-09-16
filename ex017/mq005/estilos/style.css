@@ -7,11 +7,11 @@
 }
 
 body, html{
-    background-color: rgb(240, 84, 240);
+    background-color: rgb(185, 185, 185);
 }
 
 header{
-    background-color: purple;
+    background-color: rgb(145, 145, 145);
 }
 
 header > h1{
@@ -43,14 +43,14 @@ menu > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: rgb(70, 5, 70);
+    background-color: rgb(71, 63, 71);
     color: white;
     text-align: center;
-    border-top: 2px solid purple;
+    border-top: 2px solid rgb(114, 114, 114);
 }
 
 menu > ul > li > a:hover{
-    background-color: purple;
+    background-color: rgb(102, 102, 102);
 }
 
 main{
